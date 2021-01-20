@@ -1,10 +1,14 @@
 <template>
-    <div>This is Home Component</div>
+    <div>
+
+    </div>
 </template>
 
 <script>
-export default {
 
+export default {
+    components: {
+    }
 }
 </script>
 
