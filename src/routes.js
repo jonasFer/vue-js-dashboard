@@ -1,6 +1,8 @@
 import HomeComponent from "@/components/HomeComponent";
+import LoginComponent from "@/components/layouts/LoginComponent";
 
 export const routes = [
-    { path: '', component: HomeComponent, title: 'Home', icon: 'mdi-home', menu: true},
-    { path: '*', component: HomeComponent, menu: false }
+    { path: '/home', name: 'home', component: HomeComponent, title: 'Home', icon: 'mdi-home', menu: true},
+    { path: '/login', name: 'login', component: LoginComponent, menu: false},
+    { path: '*', name: '404', component: HomeComponent, menu: false }
 ]
